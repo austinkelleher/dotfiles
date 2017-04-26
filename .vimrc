@@ -14,6 +14,9 @@ Plug 'xolox/vim-notes'
 Plug 'mhinz/vim-grepper'
 Plug 'ahw/vim-pbcopy'
 
+" NOTE: Install 'grip' as well
+Plug 'JamshedVesuna/vim-markdown-preview'
+
 " NOTE: go to where this plugin was installed '~/.vim/plugged/command-t' and
 " run 'make rake'
 Plug 'wincent/command-t'
@@ -67,6 +70,9 @@ let g:grepper.ag = { 'grepperg': 'git grep -nI' }
 "
 " copy selected text to clipboard
 let g:vim_pbcopy_local_cmd = "pbcopy"
+
+" Use grip with markdown preview plugin
+let vim_markdown_preview_github=1
 
 " Draw a line to show the column layout limit
 if exists('+colorcolumn')
