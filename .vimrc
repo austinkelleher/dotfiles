@@ -18,7 +18,7 @@ Plug 'ahw/vim-pbcopy'
 Plug 'JamshedVesuna/vim-markdown-preview'
 
 " NOTE: go to where this plugin was installed '~/.vim/plugged/command-t' and
-" run 'make rake'
+" run 'rake make'
 Plug 'wincent/command-t'
 
 call plug#end()            " required
