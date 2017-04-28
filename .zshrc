@@ -90,3 +90,28 @@ isUnix=$(uname -a | grep Darwin)
 if [[ ! $isUnix ]]; then
   eval `dircolors ~/.dir_colors/dircolors`
 fi
+
+# goteem prints out the word "goteem".
+#
+# example:
+#   $ goteem
+#
+#      _|_|_|     _|_|     _|_|_|_|_|   _|_|_|_|   _|_|_|_|   _|      _|
+#    _|         _|    _|       _|       _|         _|         _|_|  _|_|
+#    _|  _|_|   _|    _|       _|       _|_|_|     _|_|_|     _|  _|  _|
+#    _|    _|   _|    _|       _|       _|         _|         _|      _|
+#      _|_|_|     _|_|         _|       _|_|_|_|   _|_|_|_|   _|      _|
+#
+#
+# be warned, if invoked, you may experience nostalgia.
+goteem() {
+  echo "
+
+   _|_|_|     _|_|     _|_|_|_|_|   _|_|_|_|   _|_|_|_|   _|      _|
+ _|         _|    _|       _|       _|         _|         _|_|  _|_|
+ _|  _|_|   _|    _|       _|       _|_|_|     _|_|_|     _|  _|  _|
+ _|    _|   _|    _|       _|       _|         _|         _|      _|
+   _|_|_|     _|_|         _|       _|_|_|_|   _|_|_|_|   _|      _|
+
+"
+}
