@@ -74,6 +74,9 @@ let g:vim_pbcopy_local_cmd = "pbcopy"
 " Use grip with markdown preview plugin
 let vim_markdown_preview_github=1
 
+" Use Google Chrome as the default web browser for markdown preview
+let vim_markdown_preview_browser='Google Chrome'
+
 " Draw a line to show the column layout limit
 if exists('+colorcolumn')
   set colorcolumn=80
