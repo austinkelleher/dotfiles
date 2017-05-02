@@ -13,6 +13,7 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 Plug 'mhinz/vim-grepper'
 Plug 'ahw/vim-pbcopy'
+Plug 'scrooloose/nerdcommenter'
 
 " NOTE: Install 'grip' as well
 Plug 'JamshedVesuna/vim-markdown-preview'
@@ -76,6 +77,15 @@ let vim_markdown_preview_github=1
 
 " Use Google Chrome as the default web browser for markdown preview
 let vim_markdown_preview_browser='Google Chrome'
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
 
 " Draw a line to show the column layout limit
 if exists('+colorcolumn')
