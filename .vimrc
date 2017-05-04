@@ -14,6 +14,7 @@ Plug 'xolox/vim-notes'
 Plug 'mhinz/vim-grepper'
 Plug 'ahw/vim-pbcopy'
 Plug 'scrooloose/nerdcommenter'
+Plug 'pangloss/vim-javascript'
 
 " NOTE: Install 'grip' as well
 Plug 'JamshedVesuna/vim-markdown-preview'
@@ -86,6 +87,12 @@ let g:NERDCompactSexyComs = 1
 
 " Align line-wise comment delimiters flush left instead of following code indentation
 let g:NERDDefaultAlign = 'left'
+
+" Set encoding to UTF-8 to show glyphs
+set encoding=utf8
+
+" Enables syntax highlighting for JSDocs
+let g:javascript_plugin_jsdoc = 1
 
 " Draw a line to show the column layout limit
 if exists('+colorcolumn')
