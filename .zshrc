@@ -117,4 +117,4 @@ goteem() {
 }
 
 # Export GitHub Token in context of shell
-. scripts/github.sh
+. ~/scripts/github.sh

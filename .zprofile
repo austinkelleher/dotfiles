@@ -10,7 +10,7 @@ alias cdd="cd ~/Desktop"
 alias cdo="cd ~/Documents/open-source"
 alias cdm="cd ~/Documents/open-source/marko"
 alias cdp="cd ~/Documents/projects"
-alias weather="./scripts/weather.sh"
+alias weather="~/scripts/weather.sh"
 alias killn="killall -9 node"
 
 # Karabiner keyboard switcher
