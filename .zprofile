@@ -13,6 +13,10 @@ alias cdp="cd ~/Documents/projects"
 alias weather="./scripts/weather.sh"
 alias killn="killall -9 node"
 
+# Karabiner keyboard switcher
+alias kblm='kb-el-switcher "Mechanical Keyboard"'
+alias kbld='kb-el-switcher "Default profile"'
+
 # Typo aliases
 alias sl="ls"
 alias aotm="atom"
