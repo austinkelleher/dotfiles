@@ -15,6 +15,7 @@ Plug 'mhinz/vim-grepper'
 Plug 'ahw/vim-pbcopy'
 Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
+Plug 'Yggdroot/indentLine'
 
 " NOTE: Install 'grip' as well
 Plug 'JamshedVesuna/vim-markdown-preview'
@@ -93,6 +94,12 @@ set encoding=utf8
 
 " Enables syntax highlighting for JSDocs
 let g:javascript_plugin_jsdoc = 1
+
+" Set indentLine config
+let g:indentLine_setColors = 0
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = '.'
+let g:indentLine_char = '.'
 
 " Draw a line to show the column layout limit
 if exists('+colorcolumn')
