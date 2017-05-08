@@ -24,4 +24,4 @@ alias gti="git"
 alias got="git"
 alias gi="git"
 alias kiln="killn"
-
+alias mdkir="mkdir"
