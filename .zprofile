@@ -2,6 +2,7 @@
 alias szr="source ~/.zshrc"
 alias c="clear"
 alias n="node"
+alias ns="npm start"
 alias ni="npm i"
 alias nt="npm test"
 alias atom="atom-beta"
