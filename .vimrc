@@ -16,6 +16,7 @@ Plug 'ahw/vim-pbcopy'
 Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
 Plug 'Yggdroot/indentLine'
+Plug 'terryma/vim-multiple-cursors'
 
 " NOTE: Install 'grip' as well
 Plug 'JamshedVesuna/vim-markdown-preview'
