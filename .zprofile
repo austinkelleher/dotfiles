@@ -13,6 +13,7 @@ alias cdm="cd ~/Documents/open-source/marko"
 alias cdp="cd ~/Documents/projects"
 alias weather="~/scripts/weather.sh"
 alias killn="killall -9 node"
+alias o="open"
 
 # Karabiner keyboard switcher
 alias kblm='kb-el-switcher "Mechanical Keyboard"'
