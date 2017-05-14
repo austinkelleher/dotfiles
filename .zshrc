@@ -89,6 +89,10 @@ isUnix=$(uname -a | grep Darwin)
 
 if [[ ! $isUnix ]]; then
   eval `dircolors ~/.dir_colors/dircolors`
+
+  # Export functions related to AWS
+  . ~/scripts/aws-profile.sh
+  export PATH=~/.local/bin:$PATH
 fi
 
 # goteem prints out the word "goteem".
