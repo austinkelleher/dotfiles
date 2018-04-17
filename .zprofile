@@ -13,6 +13,7 @@ alias weather="~/scripts/weather.sh"
 alias tess="~/scripts/tess"
 alias killn="killall -9 node"
 alias o="open"
+alias ngrok="~/scripts/ngrok"
 
 # Karabiner keyboard switcher
 alias kblm='kb-el-switcher "Mechanical Keyboard"'
