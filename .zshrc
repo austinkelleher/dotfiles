@@ -8,7 +8,7 @@ export ZSH=~/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
+ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -89,11 +89,11 @@ isUnix=$(uname -a | grep Darwin)
 
 if [[ ! $isUnix ]]; then
   eval `dircolors ~/.dir_colors/dircolors`
-
-  # Export functions related to AWS
-  . ~/scripts/aws-profile.sh
-  export PATH=~/.local/bin:$PATH
 fi
+
+# Export functions related to AWS
+. ~/scripts/aws-profile.sh
+export PATH=~/.local/bin:$PATH
 
 # goteem prints out the word "goteem".
 #
@@ -122,3 +122,7 @@ goteem() {
 
 # Export GitHub Token in context of shell
 . ~/scripts/github.sh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# export PATH="$PATH:$HOME/.rvm/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
