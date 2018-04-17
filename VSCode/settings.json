@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-u>"],
+            "after": ["2", "0", "k"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["2", "0", "j"]
+        }
+    ],
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "go.formatTool": "goreturns",
+    "search.location": "panel"
+}

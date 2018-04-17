@@ -1,0 +1,4 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  { "key": "ctrl+s", "command": "workbench.action.files.save" }
+]
