@@ -1,3 +1,2 @@
-# Ignore everything. Track a new file with `git add -f`
-*
-
+scripts/aws-profile.sh
+scripts/github.sh
