@@ -33,3 +33,6 @@ cd -
 
 # Install aws CLI
 brew install awscli
+
+# Install diff-so-fancy
+brew install diff-so-fancy
