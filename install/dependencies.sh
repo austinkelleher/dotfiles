@@ -36,3 +36,6 @@ brew install awscli
 
 # Install diff-so-fancy
 brew install diff-so-fancy
+
+# Install cat alternative - bat
+brew install bat
