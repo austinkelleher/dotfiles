@@ -1,11 +1,8 @@
+#!/bin/bash
+
 SCRIPT_DIR=$(dirname "$0")
 
-files=(
-dependencies.sh
-configure-zsh.sh
-vscode-plugins.sh
-configure-git.sh
-)
+files=(dependencies.sh configure-zsh.sh configure-git.sh)
 
 for file in "${files[@]}"
 do
