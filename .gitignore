@@ -1,2 +1,3 @@
 scripts/aws-profile.sh
 scripts/github.sh
+antigen.sh

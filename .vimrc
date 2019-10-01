@@ -18,13 +18,15 @@ Plug 'pangloss/vim-javascript'
 Plug 'Yggdroot/indentLine'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'joshdick/onedark.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " NOTE: Install 'grip' as well
 Plug 'JamshedVesuna/vim-markdown-preview'
 
 " NOTE: go to where this plugin was installed '~/.vim/plugged/command-t' and
 " run 'rake make'
-Plug 'wincent/command-t'
+" Plug 'wincent/command-t'
 
 call plug#end()            " required
 
@@ -81,7 +83,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 map , <leader>
 
 " ctrl p to CommandT
-map <c-p> :CommandT <enter>
+" map <c-p> :CommandT <enter>
+
+map <c-p> :FZF <enter>
 map <c-a> :Grepper <enter>
 
 map <leader>n :NERDTree <enter>
